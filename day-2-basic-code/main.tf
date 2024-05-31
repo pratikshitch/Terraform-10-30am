@@ -4,7 +4,7 @@ resource "aws_instance" "name" {
     key_name = var.keyname
 
     tags = {
-      Name = "newtag"
+      Name = "newtag2"
     }
   
 }
